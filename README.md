@@ -30,6 +30,21 @@ npm install
 npm run dev
 ```
 
+## GitHub Pages
+
+This repository is configured for GitHub Pages project-site hosting at:
+
+```text
+https://alfievarghese.github.io/chat_mulearn/
+```
+
+The Vite build uses a relative base path so static assets resolve correctly on the GitHub Pages project URL, and `.github/workflows/deploy-pages.yml` builds and deploys the `dist` folder on every push to `main`.
+
+After pushing, enable Pages in the repository settings:
+
+1. Open `Settings -> Pages`
+2. Set `Source` to `GitHub Actions`
+
 ## Firebase setup
 
 Create `.env` from `.env.example` and fill in:
